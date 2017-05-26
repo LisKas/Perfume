@@ -41,7 +41,7 @@ Main components
   transform: translateX(-260px);
 }
 
-/*header {
+header {
   
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -51,7 +51,7 @@ Main components
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   transition-duration: 0.4s;
-}*/
+}
 
 #cd-top-nav {
   position: absolute;
