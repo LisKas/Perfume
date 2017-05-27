@@ -54,6 +54,7 @@ h3{
 .intro {
 	background-image: url('../img/bg-promo.png');
 	background-size: cover;
+  background-attachment: fixed;
 }
 .container{
 	max-width: 1200px;
@@ -135,6 +136,7 @@ h3{
 .sale {
 	background-image: url('../img/sale-bg.png');
 	background-repeat: no-repeat;
+  background-attachment: fixed;
 	position: relative;
 }
 .sale::before {
