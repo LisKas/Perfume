@@ -41,6 +41,7 @@ jQuery(document).ready(function($){
 
 
 $(document).ready(function(){
+
 		  $('.carousel').slick({
 		      dots: true,
 		      arrows: false,
@@ -51,18 +52,54 @@ $(document).ready(function(){
 			  adaptiveHeight: true,
 			  fade: true
 		  });
-		  $('.multiple-items').slick({
+
+		  $('.responsive').slick({
 			  infinite: true,
 			  slidesToShow: 5,
 			  slidesToScroll: 1,
 			  autoplay: true,
 			  pauseOnHover: true,
-			  prevArrow: '<button type="button"><img src="img/arrowleft.jpg"></button>'
+			  prevArrow: '<button type="button"><img src="img/arrowleft.jpg"></button>',
+			  
+			  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+ 
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
           
           });
+
           $('.single-item').slick({
 
           	 infinite: true
 			  
           });
 });
+
+$(document).ready(function(){
+             $(".col-25 ").click(function(){
+                    $(this).children(".col-25 ul").slideToggle("slow");
+                    return false;
+              });
+          });

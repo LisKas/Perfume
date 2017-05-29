@@ -2,5 +2,7 @@
 .icon-basket:before { content: '\e800'; } /* '' */
 .icon-search:before { content: '\e801'; } /* '' */
 .icon-twitter:before { content: '\e802'; } /* '' */
+.icon-login:before { content: '\e803'; } /* '' */
+.icon-down-open:before { content: '\e804'; } /* '' */
 .icon-facebook:before { content: '\f30c'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */
