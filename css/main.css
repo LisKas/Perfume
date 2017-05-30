@@ -599,12 +599,14 @@ footer a:hover{
 @media only screen and (max-width: 770px) {
      #cd-top-nav {
 
-     top: 30px;
-     right: 13px;
+     top: 33px;
+     right: 65px;
 }
 
-    #cd-top-nav li {
-     display: block;
+    #cd-top-nav ul {
+      margin:0;
+      padding: 0;
+    
   
 }
 #cd-top-nav a+a{
