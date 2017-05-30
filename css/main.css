@@ -527,6 +527,7 @@ footer a:hover{
   }
   .social ul{
     display: inline-block;
+    margin: 0;	  
   }
   .social{
   width: 50%;
