@@ -92,7 +92,10 @@ $(document).ready(function(){
 
           $('.single-item').slick({
 
-          	 infinite: true
+          	 infinite: true,
+          	 speed: 3000,
+	         autoplay: true,
+			 fade: true
 			  
           });
 });
