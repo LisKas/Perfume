@@ -485,6 +485,7 @@ footer a{
 
 .col-25 span{
   color: #fff;
+  cursor:pointer;	
 }
 
 .social{
