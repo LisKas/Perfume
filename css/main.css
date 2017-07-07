@@ -777,3 +777,6 @@ button.slick-arrow{
 	background-color: transparent;
 	border: none;
 }
+.slick-next{
+	right: 0;
+}
