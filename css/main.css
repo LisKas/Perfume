@@ -485,7 +485,11 @@ footer a{
 
 .col-25 span{
   color: #fff;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+  cursor:pointer;	
+>>>>>>> c16dbab2efed6f9bc1ed04b8f45fbb6d656b2fc9
 }
 
 .social{
@@ -529,6 +533,7 @@ footer a:hover{
   }
   .social ul{
     display: inline-block;
+    margin: 0;	  
   }
   .social{
   width: 50%;
@@ -779,7 +784,13 @@ button.slick-arrow{
 	background-color: transparent;
 	border: none;
 }
+<<<<<<< HEAD
 
 .slick-next {
     right: 0;
 }
+=======
+.slick-next{
+	right: 0;
+}
+>>>>>>> c16dbab2efed6f9bc1ed04b8f45fbb6d656b2fc9
