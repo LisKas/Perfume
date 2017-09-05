@@ -780,8 +780,16 @@ footer a:hover{
 .slick-dots li.slick-active button:before{
 	color: #c54d4d;
 }
-button.slick-arrow, .slick-next{
+button.slick-arrow{
 	background-color: transparent;
 	border: none;
-  right: 0;
+ 
 }
+.slick-next{
+    right: 0;
+}
+[dir='rtl'] .slick-next{
+    right: auto;
+    left: 0;
+}
+
