@@ -780,11 +780,8 @@ footer a:hover{
 .slick-dots li.slick-active button:before{
 	color: #c54d4d;
 }
-button.slick-arrow{
+button.slick-arrow, .slick-next{
 	background-color: transparent;
 	border: none;
-}
-.slick-next, .slick-prev{
-	/*display: none;*/
   right: 0;
 }
