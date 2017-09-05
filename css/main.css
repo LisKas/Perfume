@@ -784,13 +784,7 @@ button.slick-arrow{
 	background-color: transparent;
 	border: none;
 }
-<<<<<<< HEAD
-
-.slick-next {
-    right: 0;
+.slick-next, .slick-prev{
+	/*display: none;*/
+  right: 0;
 }
-=======
-.slick-next{
-	right: 0;
-}
->>>>>>> c16dbab2efed6f9bc1ed04b8f45fbb6d656b2fc9
