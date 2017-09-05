@@ -59,7 +59,7 @@ $(document).ready(function(){
 			  slidesToScroll: 1,
 			  autoplay: true,
 			  pauseOnHover: true,
-			  prevArrow: '<button type="button"><img src="img/arrowleft.jpg"></button>',
+			  prevArrow: '<button type="button"><img src="img/arrowrightt.jpg"></button>',
 			  
 			  responsive: [
     {
